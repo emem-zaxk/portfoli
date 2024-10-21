@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="particles.js-master/demo/css/style.css">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+  
+</head>
+<style>
+    .brand-logo{
+        left: 2%;
+    }a
+    .med{
+        left: 10%;
+    }
+    body{
+  background-image: radial-gradient(red 0%, transparent 20%, black 40%);
+  height: 1000px;margin: 0px;
+   }
+   canvas {
+            max-width: 600px;
+            margin: auto;
+        }
+
+</style>
+<body >
+    <nav class="hide-on-med-and-down" style="position: fixed; text-align: center; background-color: black; z-index: 9999;" id="navbar">
+        <div class="container">
+          <ul>
+            <li>
+                <a href="" class="brand-logo"><img src="icon.png" alt="" style="border-radius: 100px;height: 50px;"></a>
+
+            </li>
+          </ul>
+
+        <div class="container">
+            <ul>
+                <li>
+                
+                        <button>
+                          <a id="bot" href="#"> Home</a>
+                        </button>
+                    
+      
+                </li>
+                <li>
+                    
+                    <button>
+                    <a id="bot" href="#"> About</a>
+                    </button>
+
+      
+                </li>
+                <li>
+                    
+                        <button>
+                        <a id="bot" href="#"> Utility</a>
+                        </button>
+
+      
+                </li>
+                <li>
+                   
+                    <button>
+                      <a id="bot" href="#"> Tokenomics </a>
+                    </button>
+                    
+      
+                </li>
+                <li>       
+                    <button>
+                      <a id="bot" href="#"> Teams </a>
+                    </button>
+                    
+      
+                </li>
+                <li>
+                    
+                    <button>
+                    <a id="bot" href="#"> Socials </a>
+                    </button>
+
+                </li>
+                <li>
+                    <button>
+                      <a id="bot" href="#"> Roadmaps</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        </div>
+      </nav> 
+      
+      
+      
+      <nav class="hide-on-large-only" style="position: fixed; background-color: black; z-index: 999;" id="nav">
+        <div>
+          <ul class="sidenav" id="slide-out">
+            <li><a href="" class="brand-logo"><img src="icon.png" width="70%" alt="" style="border-radius: 100px;"></a>
+            </li><br>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Utility</a></li>
+            <li><a href="">Tokenomics</a></li>
+            <li><a href="">Teams</a></li>
+            <li><a href="">Socials</a></li>
+            <li><a href="">Roadmaps</a></li>
+           </ul>
+    
+     <a href="" class="sidenav-trigger" data-target="slide-out">menu</a>
+        </div>
+      </nav>
+
+
+
+    <div class="row container" style="padding-top: 25%; position: relative;">
+
+      <div style="">
+        <div class="col l3"></div>
+        <div class="col l6">
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+
+
+        </div>
+        
+      </div>
+     
+
+<div class="container" style="position: absolute; top: 30%; left: 450px;">
+  <img src="icon.png" width="30%" alt="">
+</div>
+<div style="position: absolute; top: 60%; left: 100px;" class="container">
+  <h1 style="color: white; text-align: center;">Collective <br><br> <span style="font-size: 100px; margin-bottom: -20px;  font-weight: 600;">CEO</span></h1>
+</div>
+
+<div class="row container" style="position: absolute;left: 450px; top: 100%;">
+  <div class="col l2">
+    <button class="c-button c-button--gooey" style="border-radius: 20px; width: 150px;"> BUY NOW
+      <div class="c-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+      </div>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+          <feBlend in="SourceGraphic" in2="goo"></feBlend>
+        </filter>
+      </defs>
+    </svg>
+  </div>
+
+ <div class="col l2">
+  <button class="c-button c-button--gooey" style="border-radius: 20px; width: 150px;"> CHART
+    <div class="c-button__blobs">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+ </div>
+
+ 
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+     <div style="background-image: linear-gradient(to bottom, black, rgb(8, 8, 54)); padding-top: 10%;">
+      <div class="container">
+        <h1 class="center" style="color: aqua; font-family: Arial, Helvetica, sans-serif;">ABOUT</h1>
+        <p style="font-size: large; color: white;" class="center">
+            Collective DAO is a community-driven platform on the Ethereum Mainnet, focused on launching innovative projects and sharing revenue <br> among our members. With our token $CLXV, you’ll have the opportunity to participate in governance, access exclusive tools, and benefit from <br> our dual revenue streams.
+        </p>
+      </div><br><br>
+
+      <div class="container">
+        <h6 class="center" style="color: white">HOW IT WORKS</h6>
+      </div>
+
+
+      <div style="text-align: center;" class="hide-on-med-and-down">
+        <img src="ass.png" alt="" width="30%">
+      </div>
+
+
+      <div style="text-align: center;" class="hide-on-large-only">
+        <img src="ass.png" alt="" width="100%">
+      </div>
+
+
+
+
+      <div class="container">
+        <h1 class="center" style="color: aqua; font-family: Arial, Helvetica, sans-serif;">UTILITY</h1>
+        <p class="container" style="color: white; text-align: center; font-size: large;">
+            Welcome to Collective DAO, where community and innovation drive our decentralized future. Our DAO utility is designed to empower members with the tools and support they need to actively shape and benefit from the projects we create together. With a focus on transparency, inclusivity, and growth, Collective DAO offers governance power, revenue sharing, and comprehensive project support. Dive in to explore how you can contribute, collaborate, and thrive within our vibrant community.
+        </p>
+
+
+
+
+
+        <div class="row container" style="color: white; padding-top: 5%; padding-bottom: 5%; margin-top: 100px; background-color: rgba(0, 0, 0, 0.651); text-align: center;">
+            
+            <div class="col l6">
+                <img src="icon1.png" alt="" width="30%">
+                <h5>Decentralized Governance</h5>
+                <p>Decentralized Governance is at the core of how Collective DAO operates, ensuring that every significant decision within the organization is made transparently and democratically by its members.</p>
+            </div>
+
+            <div class="col l6">
+                <img src="icon2.png" alt="" width="30%">
+                <h5>Revenue Sharing</h5>
+                <p>Revenue Sharing and Member Rewards are integral components of the Collective DAO ecosystem, designed to ensure that active participants are rewarded for their contributions and investments.</p>
+            </div>
+
+            <div class="col l6">
+                <img src="icon3.png" alt=""  width="30%">
+                <h5>Project Launch Support</h5>
+                <p>Project Launch Support is one of the cornerstones of Collective DAO, designed to empower both the DAO and its members to bring innovative ideas to life.</p>
+            </div>
+
+            <div class="col l6">
+                <img src="icon4.png" alt=""  width="30%"><br>
+                <h5>Exclusive Tools & Insights</h5>
+                <p>Exclusive Tools & Insights provided by Collective DAO are designed to give its members a significant edge in the rapidly evolving blockchain and crypto space.</p>
+            </div>
+
+        </div>
+           
+
+
+
+
+        </div>
+
+        <div class="container">
+          <h1 class="center" style="color: aqua;">TOKENOMICS</h1>
+          <p style="text-align: center; font-size: large; color: white;" class="container">Collective DAO operates using the $CLXV token, a utility token on the Ethereum Mainnet that underpins the entire ecosystem. Here are the key details about the $CLXV token:</p>
+       
+
+
+
+        <div class="row container" style="padding-top: 5%; text-align: left;">
+          <div class="col l6">
+            <button class="btn" style="width: 460px; border-radius: 10px; height: 50px; background-color: rgb(112, 112, 250);"> 
+              <i class="fa-solid fa-droplet"></i>TEAM - 3%</button><br><br><br>
+            <button class="btn" style="width: 460px; border-radius: 10px; height: 50px; background-color: blue;">LIQUIDITY - 10%</button><br><br><br>
+            <button class="btn" style="width: 460px; border-radius: 10px; height: 50px; background-color: rgb(9, 9, 226);">
+              AIRDROP - 80%</button><br><br  ><br>
+            <button class="btn" style="width: 460px; border-radius: 10px; height: 50px; background-color: rgb(26, 26, 112);">MARKETING - 3%
+            </button><br><br><br>
+            <button class="btn" style="width: 460px; border-radius: 10px; height: 50px; background-color: rgb(7, 7, 87);">
+              DEVELOPMENT - 4%</button><br><br>
+              <span style="color: blue;">ERC-20 | CONTRACT ADDRESS (CA)</span><br><br>
+              <button class="btn" style=" border-radius: 10px; height: 50px; background-color: white; color: blue;"> 0xe14cc1917a2b36602f68cd077a5809690ca36848</button>
+          </div>
+
+
+          <div class="col l6">
+            <canvas id="myDonutChart"></canvas>]\
+
+        </div>
+           
+          </div>
+        </div>
+
+        <div class="container">
+          <h1 class="center" style="color: aqua;">TEAM</h1>
+          <p class="center" style="color: white; font-size: large;">Meet the Collective DAO Team.</p>
+        
+
+          
+    <div class="row">
+      <div class="container">
+      <div class="col l4">
+       <div class="card" style="background-color: transparent;">
+          <div class="card-image">
+              <img src="chuck.jpg" alt="">
+          </div>
+     <div class="card-title" style="color: aqua;"><br>
+      <h6 style="text-align: center;  font-family: Arial, Helvetica, sans-serif;">CHUCK
+      </h6>
+      <p class="center" style="color: white; font-size: large;">PROJECT MANAGEMENT</p>
+     </div>
+     <div class="card-content" style="color: white; font-size: large;">
+      <span style="text-align: center;">With 8 years in business and 3 in DeFi, Chuck excels in creating and managing innovative crypto projects.</span>
+
+     </div>
+       </div>
+      </div>
+
+  <div class="row">
+      <div class="container">
+      <div class="col l5">
+          <div class="card" style="background-color: transparent">
+              <div class="card-image">
+             <img src="william.jpg" alt="" style="">
+              </div>
+              <div class="card-title" style="color: aqua;"><br>
+                  <h6 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">WILLIAM</h6>
+                  <p class="center" style="color: white; font-size: large;">PARTNERSHIPS & MARKETING</p>
+              </div>
+              <div class="card-content" style="color: white;">
+                <span style="text-align: center; font-size: large;">
+                  William’s expertise in marketing and business relations drives strategic partnerships and success in DeFi.
+                </span>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="row">
+      <div class="col l4">
+          <div class="card" style="background-color: transparent;">
+              <div class="card-image">
+                  <img src="hurriee.jpg" alt="" style="">
+              </div>
+              <div class="card-title" style="color: aqua;"><br>
+                  <h6 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">HURRIEE</h6>
+                  <p class="center" style="color: white; font-size: large;">DEVELOPMENT
+                  </p>
+              </div>
+              <div class="card-content" style="color: white; font-size: large;">
+                <span style="text-align: center;">A skilled software engineer with 6 years of experience, Hurriee develops cutting-edge tech for crypto projects.
+                </span>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>%
+
+        </div>
+
+        <div style="background-color: black; height: 500px;">
+          <div class="container" style="padding-top: 5%;">
+          <h1 class="center" style="color: aqua;">SOCIALS</h1>
+          <p class="center" style="color: white; font-size: large;">Stay connected with Collective DAO through our official social media channels. Join the conversation, stay updated on the latest <br>developments, and engage with the community.</p>
+
+
+        <div class="row" style="text-align: center; padding-top: 6%; margin-bottom: 200px;">
+          <div class="col l3">
+            <img src="x3d-1.png" width="40%" alt="">
+          </div>
+          <div class="col l2">
+            <img src="git3d.png" width="60%" alt="">
+          </div>
+          <div class="col l2">
+            <img src="snap3d-2.png" width="60%" alt="">
+          </div>
+          <div class="col l2">
+            <img src="dex3d.png" width="60%" alt="">
+          </div>
+          <div class="col l2">
+            <img src="tg3d.png" width="60%" alt="">
+          </div>
+        </div>
+
+        </div>
+       
+      </div>
+      
+      
+      <div class="container">
+        <div class="center">
+          <h1 style="color: aqua;">ROADMAP</h1><br>
+          <p style="color: white; font-size: large;">Collective DAO Roadmap</p>
+        </div><br><br>
+
+
+        <div class="container">
+
+          <ul class="collapsible" style="border: none; color: white;">
+            <li>
+                <div class="collapsible-header" style="border-radius: 10px; background-color: rgb(104, 104, 219); border: none; height: 60px;">
+                  <p>PHASE 1: FOUNDATION & GROWTH</p>
+                
+                </div>
+                <div class="collapsible-body" style="background-color: transparent;border: none;">
+                  <div class="row">
+                    <div class="col l4"></div>
+                    <div class="col l4">
+                      <span style="font-size: larger;">
+                        Launch on Ethereum Mainnet
+                        Airdrop Due to Relaunch of Previous Project
+                        Launch Whale Room for Eligible Holders
+                        Dextools & Dexscreener Social Updates
+                        Marketing Commencement & Awareness Campaigns
+                        First DAO Vote on Snapshot
+                        CoinGecko (CG) Listing
+                        First DAO Project Funding
+                      </span>
+  
+                    </div>
+                  </div>
+                    
+                </div>
+    
+            </li><br>
+    
+            <li>
+                <div class="collapsible-header" style="border-radius: 10px; background-color: rgb(16, 16, 105); border: none; height: 60px;">
+                  <p> PHASE 2: EXPANSION & ENGAGEMENT</p>
+                 
+                </div>
+                <div class="collapsible-body"  style="background-color: transparent; border: none;">
+                  <div class="row">
+                    <div class="col l4"></div>
+                    <div class="col l4">
+                      <span style="font-size: larger;">
+                        Launch of Reward Claiming DApp for DAO Members
+                        First Revenue Share for Eligible Holders
+                        Alpha Hunt Investment Commencement
+                        Continued DAO Project Funding
+                        CoinMarketCap (CMC) Listing
+                        Strategic Partnerships
+                      </span>
+  
+                    </div>
+                  </div>
+                    
+                </div>
+    
+            </li><br>
+    
+            <li>
+                <div class="collapsible-header" style="border-radius: 10px; background-color: rgb(3, 3, 90); border: none;height: 60px;">
+                  <p> PHASE 3: SCALING & SUSTAINABILITY</p>
+                 
+                </div>
+                <div class="collapsible-body"  style="background-color: transparent; border: none;">
+                  <div class="row">
+                    <div class="col l4"></div>
+                    <div class="col l4">
+                      <span style="font-size: larger;">
+                        Expansion of DAO Membership
+                        Ongoing Project Funding
+                        Ongoing Revenue Distributions
+                        Additional Strategic Partnerships
+                      </span>
+  
+                    </div>
+                  </div>
+                  
+                </div>
+    
+            </li>
+  
+        </ul>
+        </div><br><br> 
+  
+  
+
+      </div>
+
+      <div class="" style="background-color: black; height: 300px;">
+        <div class="row container">
+          <div class="col l12" style="padding-top: 4%;">
+            <img src="icon.png" width="4%" alt="">
+          </div>
+        
+          <div class="col l3" style="padding-top: 3%;">
+            <p style="color: white; font-size: larger;">
+              Collective DAO is a community-driven platform on the Ethereum Mainnet, focused on launching innovative projects and sharing revenue among our members.
+            </p>
+          </div>
+          <div class="row" style="color: white;">
+            <div class="col l9" style="color: white;">
+              <p>STAY CONNECTED</p>
+            </div>
+            <div class="col l9">
+              <p>TELEGRAM</p>
+            </div>
+            <div class="col l9">
+              <p>X</p>
+            </div>
+            <div class="col l9">
+              <p>GITBOOK
+              </p>
+            </div>
+            <div class="col l9">
+              <p>SNAPSHOT
+              </p>
+            </div>
+            <div class="col l9">
+              <p>DEXTOOLS</p>
+            </div>
+          </div>
+
+          <div class="row container" style="color: white;">
+            <div class="col l1">
+              <p>SITE MAP
+                HOME</p>
+            </div>
+            <div class="col l1">
+              <p>HOME
+              </p>
+            </div>
+            <div class="col l1">
+              <p>ABOUT</p>
+            </div>
+            <div class="col l1">
+              <p>UTILITY</p>
+            </div>
+            <div class="col l1">
+              <p>TOKENOMICS
+              </p>
+            </div>
+            <div class="col l1">
+              <p>TEAM</p>
+            </div>
+            <div class="col l1">
+              <p>SOCIALS</p>
+            </div>
+            <div class="col l1">
+              <p>ROADMAP</p>
+            </div>
+          </div>
+        
+
+        </div>
+
+
+      </div>
+      
+      
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    <script src="materialize/js/jquery.js"></script>
+    <script src="materialize/js/materialize.js"></script>
+    <script src="particles.js-master/particles.js"></script>
+    <script src="particles.js-master/demo/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/lib/stats.js"></script>
+    <script>
+        const nav=document.getElementById('nav');
+        var sticky=nav.offsetTop;
+        var btn=document.getElementsByClassName('.hover')
+        window.addEventListener('scroll',function() {
+            if(window.scrollY >sticky){
+              nav.style.backgroundColor='transparent';
+            } else {
+              nav.style.backgroundColor='black'
+            }
+  
+        })
+    </script> 
+     <script>
+        const navbar=document.getElementById('navbar');
+        var sticky=navbar.offsetTop;
+        var btn=document.getElementsByClassName('.hover')
+        window.addEventListener('scroll',function() {
+            if(window.scrollY >sticky){
+              navbar.style.backgroundColor=' rgba(255, 255, 255, 0.603)';
+            } else {
+              navbar.style.backgroundColor='black'
+            }
+
+        })
+    </script>
+    <script>
+        $(document).ready(function(){
+           $('.sidenav').sidenav();
+           $('.slider').slider();
+           $('.carousel').carousel();
+        });
+      </script>
+    <script>
+      const ctx = document.getElementById('myDonutChart').getContext('2d');
+
+      const myDonutChart = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+              labels: ['Category A', 'Category B', 'Category C', 'Category D'],
+              datasets: [{
+                  label: 'My Dataset',
+                  data: [15, 30, 45, 10],
+                  backgroundColor: [
+                      '#ff9999',
+                      '#66b3ff',
+                      '#99ff99',
+                      '#ffcc99'
+                  ],
+                  hoverOffset: 4
+              }]
+          },
+          options: {
+              responsive: true,
+              animation: {
+                  animateScale: true,
+                  animateRotate: true
+              },
+              plugins: {
+                  legend: {
+                      position: 'top',
+                  },
+                  tooltip: {
+                      callbacks: {
+                          label: function(tooltipItem) {
+                              return tooltipItem.label + ': ' + tooltipItem.raw + '%';
+                          }
+                      }
+                  }
+              }
+          }
+      });
+  </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.collapsible');
+  var instances = M.Collapsible.init(elems, options);
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+  $('.npm i bootstrap-icons')
+});
+</script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+ 
+  
+  
+</body>
+</html>
